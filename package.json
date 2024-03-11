@@ -1,0 +1,21 @@
+{
+  "name": "jsdom-bug-urlsearchparams-has-k-v",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test *.node-test.js && jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "jsdom": "^24.0.0",
+    "whatwg-url": "^14.0.0"
+  },
+  "volta": {
+    "node": "18.19.1"
+  }
+}
